@@ -1,0 +1,5 @@
+/.idea
+/node_modules
+/public_html
+
+package-lock.json

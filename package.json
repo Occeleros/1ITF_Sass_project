@@ -1,0 +1,30 @@
+{
+  "name": "1itf_Sass_project",
+  "version": "1.0.0",
+  "description": "1ITF Sass project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pverhaert/1ITF_Sass_project.git"
+  },
+  "keywords": [
+    "Thomas More Kempen",
+    "Sass",
+    "1ITF"
+  ],
+  "author": "Patrick Verhaert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pverhaert/1ITF_Sass_project/issues"
+  },
+  "homepage": "https://github.com/pverhaert/1ITF_Sass_project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
