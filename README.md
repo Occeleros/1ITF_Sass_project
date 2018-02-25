@@ -15,7 +15,7 @@ Volgende tools hoef je maar eenmalig te installeren:
 
 ## Een nieuw Sass-project starten
 
-- Download of clone deze repo `git clone https://github.com/pverhaert/1ITF_SASS_project.git`
+- Download of clone deze repo `git clone https://github.com/pverhaert/1ITF_Sass_project.git`
 - Hernoem de map
 - Installeer de node-modules: `npm install`
 - Start de Sass-compiler: `gulp`
