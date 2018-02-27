@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var plumber = require('gulp-plumber');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
@@ -16,6 +17,7 @@ gulp.task('browser-sync', function () {
 // Compile sass into CSS (/public_html/css/) & auto-inject into browsers
 gulp.task('sass', function () {
     return gulp.src('./scss/**/*.scss')
+        .pipe(plumber())
         .pipe(sourcemaps.init())
         // outputStyle: nested (default), expanded, compact, compressed
         .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
