@@ -23,9 +23,11 @@
   "homepage": "https://github.com/pverhaert/1ITF_Sass_project#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "css-mqpacker": "^6.0.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4"
   }

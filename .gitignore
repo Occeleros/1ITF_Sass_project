@@ -1,4 +1,5 @@
 /.idea
 /node_modules
+/public_html/css
 
 package-lock.json
